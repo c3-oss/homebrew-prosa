@@ -4,28 +4,28 @@ cask "prosa" do
 
   on_macos do
     on_intel do
-      sha256 "ebb4b66e23be6d4918ebb266a30355061cce5cb8a7cb3e89b50c3159562b0320"
+      sha256 "02307f849f49c0e3844037da0c2c37ade20f976c29cd5307f5208026bc4126b6"
       url "https://github.com/c3-oss/prosa/releases/download/v#{version}/prosa_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "a66c5e60ba6c3be7432661ac8e46a19d55b71025fbc53cbe0ea8c30715142a58"
+      sha256 "0fc4a55359eafbba0afae9504513ab02c76e0a1f6e29e083fe045b134c0c2495"
       url "https://github.com/c3-oss/prosa/releases/download/v#{version}/prosa_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "e7d4f3ddd38cd9fdb955181aa8659d91615eee7ec1dbe2807b8e8f12a63d8cb4"
+      sha256 "45bff60ad799a744fc9088ba7996343c6e111c62dde4e89683f1b8144aaffd8c"
       url "https://github.com/c3-oss/prosa/releases/download/v#{version}/prosa_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "cd3140e91f06879c84d0b9bb49e829cdd7eab006964db15d8ab6bb53f2092984"
+      sha256 "4cdd987e376e23cb7a07a0549bdb5e57bc665b97f7f1a5b1058f30fd48885370"
       url "https://github.com/c3-oss/prosa/releases/download/v#{version}/prosa_#{version}_linux_arm64.tar.gz"
     end
   end
 
   name "prosa"
-  desc "Unified history of AI agent sessions across devices"
+  desc "CLI for prosa"
   homepage "https://github.com/c3-oss/prosa"
 
   livecheck do
@@ -33,8 +33,6 @@ cask "prosa" do
   end
 
   binary "prosa"
-  binary "prosa-server"
-  binary "prosa-panel"
 
   # No zap stanza required
 
