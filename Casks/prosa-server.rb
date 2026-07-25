@@ -4,22 +4,22 @@ cask "prosa-server" do
 
   on_macos do
     on_intel do
-      sha256 "830787c2baee61fcbb3138908d0abab3c86256b4fb6ad4982c1b749edf1358b2"
+      sha256 "33b5d957ae8e6b6db0363fd9224fe3c1df278368ccf229901a924e3cc11d0531"
       url "https://github.com/c3-oss/prosa/releases/download/v#{version}/prosa-server_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "de17c2e06f3cb06fe8c98106d32508b70b0ccd82635d7a32464128b723de85ca"
+      sha256 "b85cd66811e90253aab27849a78f5dcff272669546f021603e76fa01bb21e767"
       url "https://github.com/c3-oss/prosa/releases/download/v#{version}/prosa-server_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "50ae7b82de93107c5871836949765a56dbcfd2e18999143ebc19762548152a03"
+      sha256 "f70238d7a4d59e9c142c87ad5571e07c7e1a18ad8d588c5645c4cf0e4eaaa77a"
       url "https://github.com/c3-oss/prosa/releases/download/v#{version}/prosa-server_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "da42f0e6eb7c4964d34827d225a3a9c33bb4b026c588f7a0405312f61c8dcaac"
+      sha256 "c13c3520397a258f6d1be79b486b26de88395c6649a943ca9564f9673968066b"
       url "https://github.com/c3-oss/prosa/releases/download/v#{version}/prosa-server_#{version}_linux_arm64.tar.gz"
     end
   end
